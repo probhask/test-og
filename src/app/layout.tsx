@@ -26,13 +26,13 @@ export const metadata: Metadata = {
   openGraph: {
     images: [
       {
-        url: "https://www.blinkare.com/main-logo.png",
+        url: "/main-logo.png",
         alt: "Blinkare",
       },
     ],
   },
   twitter: {
-    images: ["https://www.blinkare.com/main-logo.png"],
+    images: ["/main-logo.png"],
   },
 };
 
