@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   icons: {
-    icon: "/main-logo.ico",
+    icon: "/main-logo1.ico",
   },
   title: "Blinkare - Healthcare in Every Pocket",
   description:
@@ -26,13 +26,15 @@ export const metadata: Metadata = {
   openGraph: {
     images: [
       {
-        url: "/main-logo.png",
+        url: "/main-logo1.png",
         alt: "Blinkare",
+        width: "300",
+        height: "300",
       },
     ],
   },
   twitter: {
-    images: ["/main-logo.png"],
+    images: ["/main-logo1.png"],
   },
 };
 
